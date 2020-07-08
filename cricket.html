@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cricket Ball Animtion</title>
+    <style>
+        .ball {
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            background-color: red;
+            position: relative;
+            left: 640px;
+        }
+        
+        .bat {
+            transition: transform .2s ease-in-out;
+        }
+        
+        .bat:hover {
+            transform: rotate(-60deg);
+            transform-origin: 100% 0%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div>
+            <img class="bat" src="images/bat.jpg" alt="">
+        </div>
+        <div class="ball"></div>
+    </div>
+</body>
+
+</html>

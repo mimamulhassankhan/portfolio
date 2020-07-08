@@ -87,11 +87,14 @@ section {
 }
 
 footer {
+    text-align: center;
     padding-top: 10%;
     background-image: url("images/footer-bg.png");
     background-repeat: no-repeat;
     background-size: cover;
-    text-align: center;
+}
+
+.centered_items {
     width: 50%;
     margin: 0% 25%;
 }
